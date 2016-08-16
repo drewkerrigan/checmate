@@ -1,0 +1,16 @@
+2016-08-16 22:22:53.300 [error] <0.11053.1> CRASH REPORT Process <0.11053.1> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:22:58.587 [error] <0.29713.1> CRASH REPORT Process <0.29713.1> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:22:58.867 [error] <0.30926.1> CRASH REPORT Process <0.30926.1> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:22:59.075 [error] <0.31701.1> CRASH REPORT Process <0.31701.1> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:02.273 [error] <0.10918.2> CRASH REPORT Process <0.10918.2> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:02.515 [error] <0.12065.2> CRASH REPORT Process <0.12065.2> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:02.526 [error] <0.12117.2> CRASH REPORT Process <0.12117.2> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:05.675 [error] <0.24446.2> CRASH REPORT Process <0.24446.2> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:07.108 [error] <0.29769.2> CRASH REPORT Process <0.29769.2> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:09.089 [error] <0.4675.3> CRASH REPORT Process <0.4675.3> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:13.057 [error] <0.19470.3> CRASH REPORT Process <0.19470.3> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:18.037 [error] <0.3880.4> CRASH REPORT Process <0.3880.4> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:21.034 [error] <0.14002.4> CRASH REPORT Process <0.14002.4> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:30.315 [error] <0.12724.5> CRASH REPORT Process <0.12724.5> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:33.032 [error] <0.22211.5> CRASH REPORT Process <0.22211.5> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
+2016-08-16 22:23:36.125 [error] <0.303.6> CRASH REPORT Process <0.303.6> with 0 neighbours exited with reason: {connection_error,{connection_error,eaddrnotavail}} in gen_server:init_it/6 line 320
