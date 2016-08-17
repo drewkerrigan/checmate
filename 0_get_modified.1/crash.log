@@ -1,0 +1,288 @@
+2016-08-17 01:13:09 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.3045.1>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 529
+  neighbours:
+2016-08-17 01:13:10 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.4210.1>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>]
+    messages: []
+    links: [<0.101.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:19 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.11389.2>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:24 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.31135.2>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:25 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.2191.3>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>]
+    messages: []
+    links: [<0.101.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:32 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.31345.3>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:32 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.246.4>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>]
+    messages: []
+    links: [<0.101.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:33 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.5466.4>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:34 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.7959.4>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>]
+    messages: []
+    links: [<0.101.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:35 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.13387.4>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:42 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.11708.5>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:45 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.23835.5>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:45 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.25292.5>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:49 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.10901.6>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.101.0>]
+    messages: []
+    links: [<0.101.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:50 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.13818.6>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:13:59 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.22559.7>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:14:00 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.26325.7>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+2016-08-17 01:14:00 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.26924.7>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:

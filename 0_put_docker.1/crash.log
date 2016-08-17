@@ -1,0 +1,16 @@
+2016-08-17 02:08:56 =CRASH REPORT====
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.6914.2>
+    registered_name: []
+    exception exit: {{connection_error,{connection_error,eaddrnotavail}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:

@@ -1,0 +1,478 @@
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+          supervisor: {local,sasl_safe_sup}
+             started: [{pid,<0.73.0>},
+                       {name,alarm_handler},
+                       {mfargs,{alarm_handler,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+          supervisor: {local,sasl_safe_sup}
+             started: [{pid,<0.74.0>},
+                       {name,overload},
+                       {mfargs,{overload,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+          supervisor: {local,sasl_sup}
+             started: [{pid,<0.72.0>},
+                       {name,sasl_safe_sup},
+                       {mfargs,
+                           {supervisor,start_link,
+                               [{local,sasl_safe_sup},sasl,safe]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+          supervisor: {local,sasl_sup}
+             started: [{pid,<0.75.0>},
+                       {name,release_handler},
+                       {mfargs,{release_handler,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+         application: sasl
+          started_at: nonode@nohost
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+          supervisor: {local,crypto_sup}
+             started: [{pid,<0.81.0>},
+                       {name,crypto_server},
+                       {mfargs,{crypto_server,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+         application: crypto
+          started_at: nonode@nohost
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+          supervisor: {local,folsom_sup}
+             started: [{pid,<0.91.0>},
+                       {name,folsom_sample_slide_sup},
+                       {mfargs,{folsom_sample_slide_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+          supervisor: {local,folsom_sup}
+             started: [{pid,<0.92.0>},
+                       {name,folsom_meter_timer_server},
+                       {mfargs,{folsom_meter_timer_server,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+          supervisor: {local,folsom_sup}
+             started: [{pid,<0.93.0>},
+                       {name,folsom_metrics_histogram_ets},
+                       {mfargs,{folsom_metrics_histogram_ets,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+         application: folsom
+          started_at: nonode@nohost
+
+=PROGRESS REPORT==== 17-Aug-2016::01:12:59 ===
+          supervisor: {local,basho_bench_sup}
+             started: [{pid,<0.86.0>},
+                       {name,basho_bench_stats},
+                       {mfargs,{basho_bench_stats,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:13:01 ===
+          supervisor: {local,basho_bench_sup}
+             started: [{pid,<0.95.0>},
+                       {name,basho_bench_worker_1},
+                       {mfargs,
+                           {basho_bench_worker,start_link,
+                               [basho_bench_worker_1,1]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:13:01 ===
+          supervisor: {local,basho_bench_sup}
+             started: [{pid,<0.98.0>},
+                       {name,basho_bench_worker_2},
+                       {mfargs,
+                           {basho_bench_worker,start_link,
+                               [basho_bench_worker_2,2]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:13:01 ===
+          supervisor: {local,basho_bench_sup}
+             started: [{pid,<0.100.0>},
+                       {name,basho_bench_worker_3},
+                       {mfargs,
+                           {basho_bench_worker,start_link,
+                               [basho_bench_worker_3,3]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:13:01 ===
+          supervisor: {local,kernel_safe_sup}
+             started: [{pid,<0.102.0>},
+                       {name,timer_server},
+                       {mfargs,{timer,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,1000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:13:01 ===
+         application: basho_bench
+          started_at: nonode@nohost
+
+=PROGRESS REPORT==== 17-Aug-2016::01:13:01 ===
+          supervisor: {local,inet_gethost_native_sup}
+             started: [{pid,<0.107.0>},{mfa,{inet_gethost_native,init,[[]]}}]
+
+=PROGRESS REPORT==== 17-Aug-2016::01:13:01 ===
+          supervisor: {local,kernel_safe_sup}
+             started: [{pid,<0.106.0>},
+                       {name,inet_gethost_native_sup},
+                       {mfargs,{inet_gethost_native,start_link,[]}},
+                       {restart_type,temporary},
+                       {shutdown,1000},
+                       {child_type,worker}]
+
+=CRASH REPORT==== 17-Aug-2016::01:13:09 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.3045.1>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 529
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:10 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.4210.1>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.101.0>]
+    messages: []
+    links: [<0.101.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:19 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.11389.2>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:24 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.31135.2>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:25 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.2191.3>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.101.0>]
+    messages: []
+    links: [<0.101.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:32 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.31345.3>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:32 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.246.4>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.101.0>]
+    messages: []
+    links: [<0.101.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:33 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.5466.4>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:34 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.7959.4>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.101.0>]
+    messages: []
+    links: [<0.101.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:35 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.13387.4>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:42 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.11708.5>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:45 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.23835.5>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:45 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.25292.5>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.99.0>]
+    messages: []
+    links: [<0.99.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:49 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.10901.6>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.101.0>]
+    messages: []
+    links: [<0.101.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:50 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.13818.6>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:13:59 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.22559.7>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:14:00 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.26325.7>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
+
+=CRASH REPORT==== 17-Aug-2016::01:14:00 ===
+  crasher:
+    initial call: eredis_client:init/1
+    pid: <0.26924.7>
+    registered_name: []
+    exception exit: {connection_error,{connection_error,eaddrnotavail}}
+      in function  gen_server:init_it/6 (gen_server.erl, line 320)
+    ancestors: [<0.97.0>]
+    messages: []
+    links: [<0.97.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 533
+  neighbours:
