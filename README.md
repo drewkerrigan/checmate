@@ -37,6 +37,6 @@ Name | Mean Latency | Mean Ops/Sec
 *Checmate* | `0.69s` | `4275.27`
 *Docker* | `2.12s` | `1489.29`
 
-**67.34% decrease in latency for Checmate**
+**67.34% decrease in latency from Docker to Checmate**
 
-**187.07% increase in operations / second**
+**187.07% increase in operations / second from Docker to Checkmate**
