@@ -14,7 +14,7 @@ Parameter | Value
 
 ### Checmate Throughput (ops/sec)
 
-![checkmate gets](checkmate.png)
+![checkmate gets](checmate.png)
 
 ### Docker Throughput (ops/sec)
 
