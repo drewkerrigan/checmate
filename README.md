@@ -18,9 +18,15 @@ Parameter | Value
 
 ![checkmate gets](checmate.png)
 
+Full test results [here](0_get_modified.1)
+Full graph (including latencies) [here](0_get_modified.1/summary.png)
+
 ### Docker Throughput (ops/sec)
 
 ![docker gets](docker.png)
+
+Full test results [here](0_get_docker.1)
+Full graph (including latencies) [here](0_get_docker.1/summary.png)
 
 ### Summary
 
