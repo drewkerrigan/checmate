@@ -32,19 +32,11 @@ Full graph (including latencies) [here](0_get_docker.1/summary.png)
 
 ### Summary
 
-../checmate/0_get_modified.1/ Mean Latency: 0.691701612903
-../checmate/0_get_modified.1/Mean Ops/Sec: 4275.26673663
-
-../checmate/0_get_docker.1/Mean Latency: 2.11771612903
-../checmate/0_get_docker.1/Mean Ops/Sec: 1489.29169626
-
-206.16035723% change in latency
--65.1649408561% change in ops/sec
-
 Name | Mean Latency | Mean Ops/Sec
 --- | --- | ---
 *Checmate* | `0.69s` | `4275.27`
 *Docker* | `2.12s` | `1489.29`
 
 **67.34% decrease in latency for Checmate**
+
 **187.07% increase in operations / second**
